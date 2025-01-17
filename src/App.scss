@@ -1,0 +1,35 @@
+@import './components/Header/index.scss';
+@import './components/ProjectCard/index.scss';
+@import './components/SocialCard/index.scss';
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #252a6b;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  padding: 20px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+@media (max-width: 600px) {
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+}

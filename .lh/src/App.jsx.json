@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/App.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1737157607606,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1737157620049,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,9 +47,9 @@\n       title: 'Interface Filmes',\n       description: 'Projeto usando React, Next.js e SASS para exibir filmes.',\n       url: 'https://frontend-rho-ten-36.vercel.app',\n       technologies: ['React', 'CSS', ],\n-      //imageSrc: logoFilmes,\n+      imageSrc: Cadastro_P,\n       imageAlt: 'Logo do Projeto Interface Filmes'\n     }, {\n       title: 'Interface Filmes',\n       description: 'Projeto usando React, Next.js e SASS para exibir filmes.',\n"
+                },
+                {
+                    "date": 1737157632075,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,16 +49,9 @@\n       url: 'https://frontend-rho-ten-36.vercel.app',\n       technologies: ['React', 'CSS', ],\n       imageSrc: Cadastro_P,\n       imageAlt: 'Logo do Projeto Interface Filmes'\n-    }, {\n-      title: 'Interface Filmes',\n-      description: 'Projeto usando React, Next.js e SASS para exibir filmes.',\n-      url: 'https://interface-filmes.vercel.app',\n-      technologies: ['React', 'Next.js', 'SASS'],\n-      //imageSrc: logoFilmes,\n-      imageAlt: 'Logo do Projeto Interface Filmes'\n-    },\n+    }, \n   ];\n \n   return (\n     <div className=\"App\">\n"
+                }
+            ],
+            "date": 1737157607606,
+            "name": "Commit-0",
+            "content": "import React from 'react';\nimport Header from './components/Header';\nimport ProjectCard from './components/ProjectCard';\nimport SocialCard from './components/SocialCard';\nimport './App.scss';\n\n\n\nimport logoPokemon from './image/logo_pokemon.png';\nimport calculadora from './image/calc.jpg';\nimport logoFilmes from './image/logomovie.jpeg';\nimport Cadastro_P from './image/cadastro_p.png';\n\nconst App = () => {\n  const projects = [\n    {\n      title: 'Lista Pokémon',\n      description: 'Projeto usando React para listar Pokémon.',\n      url: 'https://lista-pokemon.vercel.app',\n      technologies: ['React'],\n      imageSrc: logoPokemon,\n      imageAlt: 'Logo do Projeto Lista Pokémon'\n    },\n    {\n      title: 'Lista Pokémon',\n      description: 'Projeto usando React para listar Pokémon.',\n      url: 'https://lista-pokemon.vercel.app-psi',\n      technologies: ['React'],\n      imageSrc: logoPokemon,\n      imageAlt: 'Logo do Projeto Lista Pokémon PSI'\n    },\n    {\n      title: 'Interface Filmes',\n      description: 'Projeto usando React, Next.js e SASS para exibir filmes.',\n      url: 'https://interface-filmes.vercel.app',\n      technologies: ['React', 'Next.js', 'SASS'],\n      imageSrc: logoFilmes,\n      imageAlt: 'Logo do Projeto Interface Filmes'\n    }, {\n      title: 'Calculadora',\n      description: 'Projeto Calculadora usando React,.',\n      url: 'https://project-react-j1ou.vercel.app',\n      technologies: ['React'],\n      imageSrc: calculadora,\n      imageAlt: 'Logo do Projeto Interface Filmes'\n    }, {\n      title: 'Interface Filmes',\n      description: 'Projeto usando React, Next.js e SASS para exibir filmes.',\n      url: 'https://frontend-rho-ten-36.vercel.app',\n      technologies: ['React', 'CSS', ],\n      //imageSrc: logoFilmes,\n      imageAlt: 'Logo do Projeto Interface Filmes'\n    }, {\n      title: 'Interface Filmes',\n      description: 'Projeto usando React, Next.js e SASS para exibir filmes.',\n      url: 'https://interface-filmes.vercel.app',\n      technologies: ['React', 'Next.js', 'SASS'],\n      //imageSrc: logoFilmes,\n      imageAlt: 'Logo do Projeto Interface Filmes'\n    },\n  ];\n\n  return (\n    <div className=\"App\">\n      <Header />\n      <main>\n        <SocialCard \n          githubUrl=\"https://github.com/michaeldsmartins\" \n          linkedinUrl=\"https://www.linkedin.com/in/michael-david-276aa5330/\" \n        />\n        <div className=\"projects\">\n          {projects.map((project, index) => (\n            <ProjectCard key={index} {...project} />\n          ))}\n        </div>\n      </main>\n    </div>\n  );\n};\n\nexport default App;"
+        }
+    ]
+}

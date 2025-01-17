@@ -1,0 +1,64 @@
+// src/components/SocialCard.scss
+.social-cards {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.social-card {
+  background-color: #464545;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit text color from parent */
+  position: relative; /* Ensure the hover effect covers the entire card */
+
+  h3 {
+    font-size: 1.1em;
+    color: #000000;
+    margin: 0;
+    padding: 0 10px;
+  }
+
+  img {
+    max-width: 55px;
+    margin: 1 10px;
+    margin-right: 10px;
+  }
+
+  &:hover {
+    background-color: #555555; /* Change background color on hover */
+  }
+
+  @media (max-width: 600px) {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    padding: 10px;
+    flex-direction: column;
+
+    h3 {
+      font-size: 1.2em;
+      padding: 0;
+    }
+
+    img {
+      max-width: 80px;
+      margin: 10px 0;
+    }
+  }
+}
