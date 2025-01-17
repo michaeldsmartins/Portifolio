@@ -9,7 +9,7 @@ import './App.scss';
 import logoPokemon from './image/logo_pokemon.png';
 import calculadora from './image/calc.jpg';
 import logoFilmes from './image/logomovie.jpeg';
-import Cadastro_P from './image/cadastro_p.png';
+import Cadastro_P from './image/cadastro_p.webp';
 
 const App = () => {
   const projects = [
