@@ -44,12 +44,12 @@ const App = () => {
       imageSrc: calculadora,
       imageAlt: 'Logo do Projeto Interface Filmes'
     }, {
-      title: 'Interface Filmes',
-      description: 'Projeto usando React, Next.js e SASS para exibir filmes.',
+      title: 'Tela Admin',
+      description: 'Projeto usando React, CSS  SASS Site Simples Para adicionar e  controlar Usuarios.',
       url: 'https://frontend-rho-ten-36.vercel.app',
       technologies: ['React', 'CSS', ],
       imageSrc: Cadastro_P,
-      imageAlt: 'Logo do Projeto Interface Filmes'
+      imageAlt: 'Cadastro pessoal'
     }, 
   ];
 
