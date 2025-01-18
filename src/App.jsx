@@ -13,14 +13,7 @@ import Cadastro_P from './image/cadastro_p.webp';
 
 const App = () => {
   const projects = [
-    {
-      title: 'Lista Pokémon',
-      description: 'Projeto usando React para listar Pokémon.',
-      url: 'https://lista-pokemon.vercel.app',
-      technologies: ['React'],
-      imageSrc: logoPokemon,
-      imageAlt: 'Logo do Projeto Lista Pokémon'
-    },
+    
     {
       title: 'Lista Pokémon',
       description: 'Projeto usando React para listar Pokémon.',
