@@ -17,7 +17,7 @@ const App = () => {
     {
       title: 'Lista Pokémon',
       description: 'Projeto usando React para listar Pokémon.',
-      url: 'https://lista-pokemon.vercel.app-psi',
+      url: 'https://lista-pokemon-psi.vercel.app',
       technologies: ['React'],
       imageSrc: logoPokemon,
       imageAlt: 'Logo do Projeto Lista Pokémon PSI'
